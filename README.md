@@ -1,2 +1,2 @@
-# simple_calculator
-A simple calculator with python (german language)
+# pw_generator
+A password generator with python (german language)
