@@ -8,5 +8,6 @@ def generate_password(length=12):
 
 if __name__ == "__main__":
     password_length = int(input("Geben Sie die Länge des Kennworts ein (Standardmäßig 12): "))
-    password = generate_password(password_length)
+    password_num = int(input("Wieviele Kennwörter benötigen Sie:"))
+    password = generate_password(password_length, password_num)
     print("Generiertes Kennwort:", password)
